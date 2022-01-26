@@ -54,6 +54,8 @@ header, footer{
 
 .input-controls{
     padding:16px;
+    margin: auto;
+    width: 100%;
 }
 
 #add-input{
@@ -85,7 +87,9 @@ header, footer{
     background-color:rgb(191, 247, 212);
 }
 
-
+#todo-list{
+    padding-left:16px;
+}
 
 ul li {
     cursor: pointer;
@@ -97,6 +101,7 @@ ul li {
     font-weight:bold;
     transition: 0.2s;
     border-radius:8px;
+    width:70%;
 
 
     /*make ths list items unselectable */
